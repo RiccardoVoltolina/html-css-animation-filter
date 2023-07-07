@@ -99,6 +99,18 @@
 }
 
 
+.ex-7-img {
+    transition: 5s;
+}
+
+
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    filter: sepia(200%);
+
+}
+
+
 
 
 

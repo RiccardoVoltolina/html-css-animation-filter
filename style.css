@@ -227,3 +227,47 @@
     width: 60px;
     height: 20px;
 }
+
+
+ .ex-12-top-white {
+    animation: move_line_top 2s linear infinite;
+}
+
+
+
+
+
+@keyframes move_line_top {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+
+
+ .ex-12-bottom-white {
+    animation: move_line_bottom 2s linear infinite;
+}
+
+
+
+
+
+@keyframes move_line_bottom {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+}
+

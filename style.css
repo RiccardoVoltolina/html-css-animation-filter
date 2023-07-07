@@ -129,7 +129,24 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 5s;
 }
+
+
+.ex-9-img:hover {
+    filter: grayscale(100%);
+    filter: sepia(200%);
+    border-radius: 10%;
+    transform: scale(0.5);
+}
+
+
+
+
+
+
+
+
 .ex-10-icon {
     font-size: 60px;
 }
